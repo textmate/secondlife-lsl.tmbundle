@@ -106,9 +106,15 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\\[a-zA-Z]</string>
+					<string>\\[\\"snt]</string>
 					<key>name</key>
-					<string>constant.character.untitled</string>
+					<string>constant.character.escape.lsl</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\\([u]\h{4}|[U]\h{8})</string>
+					<key>name</key>
+					<string>constant.character.escape.unicode.lsl</string>
 				</dict>
 			</array>
 		</dict>
