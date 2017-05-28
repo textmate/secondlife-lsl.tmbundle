@@ -149,7 +149,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\\([u]\h{4}|[U]\h{8})</string>
+					<string>\\([u][0-9A-Fa-f]{4}|[U][0-9A-Fa-f]{8})</string>
 					<key>name</key>
 					<string>constant.character.escape.unicode.lsl</string>
 				</dict>
