@@ -109,7 +109,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b\w+ *(?=\()</string>
+			<string>\b\w+\s*(?=\()</string>
 			<key>name</key>
 			<string>entity.name.function.lsl</string>
 		</dict>
