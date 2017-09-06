@@ -22,6 +22,10 @@
 			<string>#comments</string>
 		</dict>
 		<dict>
+			<key>include</key>
+			<string>#numeric</string>
+		</dict>
+		<dict>
 			<key>match</key>
 			<string>==|!=</string>
 			<key>name</key>
@@ -44,24 +48,6 @@
 			<string>\+\+?|\-\-?|&lt;&lt;|&gt;&gt;|&lt;=|&gt;=|&lt;|&gt;|\*|/|%</string>
 			<key>name</key>
 			<string>keyword.operator.arithmetic.lsl</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\b0(x|X)[0-9a-fA-F]+\b</string>
-			<key>name</key>
-			<string>constant.numeric.integer.hexadecimal.lsl</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>[-]?\b([0-9]+\.[0-9]*|[0-9]*\.[0-9]+)([Ee][-+]?[0-9]+)?\b</string>
-			<key>name</key>
-			<string>constant.numeric.float.lsl</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>[-]?\b[0-9]+([Ee][-+]?[0-9]+)?\b</string>
-			<key>name</key>
-			<string>constant.numeric.integer.lsl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -227,6 +213,30 @@
 							<string>comment.line.double-slash.lsl</string>
 						</dict>
 					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>numeric</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\b0(x|X)[0-9a-fA-F]+\b</string>
+					<key>name</key>
+					<string>constant.numeric.integer.hexadecimal.lsl</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>[-]?\b([0-9]+\.[0-9]*|[0-9]*\.[0-9]+)([Ee][-+]?[0-9]+)?\b</string>
+					<key>name</key>
+					<string>constant.numeric.float.lsl</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>[-]?\b[0-9]+([Ee][-+]?[0-9]+)?\b</string>
+					<key>name</key>
+					<string>constant.numeric.integer.lsl</string>
 				</dict>
 			</array>
 		</dict>
