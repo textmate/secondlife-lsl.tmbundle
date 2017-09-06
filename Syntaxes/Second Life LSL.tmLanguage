@@ -77,7 +77,7 @@
 			<key>comment</key>
 			<string>LSL Events</string>
 			<key>match</key>
-			<string>\b(at_rot_target|at_target|attach|changed|collision|collision_end|collision_start|control|dataserver|email|http_response|land_collision|land_collision_end|land_collision_start|link_message|listen|money|moving_end|moving_start|no_sensor|not_at_rot_target|not_at_target|object_rez|on_rez|remote_data|run_time_permissions|sensor|state_entry|state_exit|timer|touch|touch_end|touch_start)\b</string>
+			<string>\b(l(?:and_collision(?:_(?:start|end))?|i(?:nk_message|sten))|t(?:ouch(?:_(?:start|end))?|ransaction_result|imer)|c(?:o(?:llision(?:_(?:start|end))?|ntrol)|hanged)|e(?:xperience_permissions(?:_denied)?|mail)|r(?:un_time_permissions|emote_data)|no(?:t_a(?:t_ro)?t_target|_sensor)|s(?:tate_e(?:ntry|xit)|ensor)|mo(?:ving_(?:start|end)|ney)|at(?:(?:_rot)?_target|tach)|http_re(?:sponse|quest)|o(?:bject|n)_rez|path_update|dataserver)\b</string>
 			<key>name</key>
 			<string>constant.language.lsl.events</string>
 		</dict>
