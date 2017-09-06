@@ -146,7 +146,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\\[\\"snt]</string>
+					<string>\\[\\"nt]</string>
 					<key>name</key>
 					<string>constant.character.escape.lsl</string>
 				</dict>
