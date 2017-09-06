@@ -7,9 +7,9 @@
 	<key>contactName</key>
 	<string>Thomas Aylott</string>
 	<key>description</key>
-	<string>The &lt;a href=&quot;http://en.wikipedia.org/wiki/Linden_Scripting_Language&quot;&gt;Linden Scripting Language&lt;/a&gt; used by the game Second Life.</string>
+	<string>&lt;a href=&quot;http://en.wikipedia.org/wiki/Linden_Scripting_Language&quot;&gt;Linden Scripting Language&lt;/a&gt; used by the game Second Life.</string>
 	<key>name</key>
-	<string>SecondLife LSL</string>
+	<string>Second Life LSL</string>
 	<key>ordering</key>
 	<array>
 		<string>E7E7AC67-E9BA-43DA-89EC-25CB1D92F65E</string>
