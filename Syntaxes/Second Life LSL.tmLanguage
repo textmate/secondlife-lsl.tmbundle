@@ -4,8 +4,8 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>esl</string>
 		<string>lsl</string>
+		<string>esl</string>
 	</array>
 	<key>keyEquivalent</key>
 	<string>^~L</string>
