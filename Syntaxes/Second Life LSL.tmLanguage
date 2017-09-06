@@ -55,7 +55,7 @@
 			<key>comment</key>
 			<string>LSL Flow-control keywords</string>
 			<key>match</key>
-			<string>\b(default|state|for|do|while|if|else|jump|return )\b</string>
+			<string>\b(default|state|for|do|while|if|else|jump|return)\b</string>
 			<key>name</key>
 			<string>keyword.control.lsl</string>
 		</dict>
