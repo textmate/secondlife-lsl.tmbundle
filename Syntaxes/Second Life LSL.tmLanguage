@@ -79,7 +79,7 @@
 			<key>match</key>
 			<string>\b(l(?:and_collision(?:_(?:start|end))?|i(?:nk_message|sten))|t(?:ouch(?:_(?:start|end))?|ransaction_result|imer)|c(?:o(?:llision(?:_(?:start|end))?|ntrol)|hanged)|e(?:xperience_permissions(?:_denied)?|mail)|r(?:un_time_permissions|emote_data)|no(?:t_a(?:t_ro)?t_target|_sensor)|s(?:tate_e(?:ntry|xit)|ensor)|mo(?:ving_(?:start|end)|ney)|at(?:(?:_rot)?_target|tach)|http_re(?:sponse|quest)|o(?:bject|n)_rez|path_update|dataserver)\b</string>
 			<key>name</key>
-			<string>constant.language.lsl.events</string>
+			<string>constant.language.events.lsl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
