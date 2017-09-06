@@ -53,9 +53,15 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)[-+]?[0-9]+)?\b</string>
+			<string>[-]?\b([0-9]+\.[0-9]*|[0-9]*\.[0-9]+)([Ee][-+]?[0-9]+)?\b</string>
 			<key>name</key>
-			<string>constant.numeric.lsl</string>
+			<string>constant.numeric.float.lsl</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[-]?\b[0-9]+([Ee][-+]?[0-9]+)?\b</string>
+			<key>name</key>
+			<string>constant.numeric.integer.lsl</string>
 		</dict>
 		<dict>
 			<key>comment</key>
