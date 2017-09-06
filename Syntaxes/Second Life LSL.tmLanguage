@@ -150,12 +150,6 @@
 					<key>name</key>
 					<string>constant.character.escape.lsl</string>
 				</dict>
-				<dict>
-					<key>match</key>
-					<string>\\([u][0-9A-Fa-f]{4}|[U][0-9A-Fa-f]{8})</string>
-					<key>name</key>
-					<string>constant.character.escape.unicode.lsl</string>
-				</dict>
 			</array>
 		</dict>
 	</array>
