@@ -63,7 +63,7 @@
 			<key>comment</key>
 			<string>LSL Types</string>
 			<key>match</key>
-			<string>\b(integer|float|string|key|vector|rotation|list|function)\b</string>
+			<string>\b(integer|float|string|key|vector|rotation|quaternion|list)\b</string>
 			<key>name</key>
 			<string>storage.type.lsl</string>
 		</dict>
