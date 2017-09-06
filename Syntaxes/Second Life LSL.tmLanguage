@@ -47,7 +47,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b0(x|X)[0-9a-fA-F]*\b</string>
+			<string>\b0(x|X)[0-9a-fA-F]+\b</string>
 			<key>name</key>
 			<string>constant.numeric.integer.hexadecimal.lsl</string>
 		</dict>
