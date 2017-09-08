@@ -117,6 +117,47 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>LSL Functions only available to certain Linden Lab employees</string>
+			<key>match</key>
+			<string>(?x)
+				\b(ll(?:
+					Set(?:Inventory|Object)PermMask
+				  | GodLikeRezObject
+				))\b
+			</string>
+			<key>name</key>
+			<string>support.function.god-mode.lsl</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?x)
+				\b(ll(?:
+					Make(?:Explosion|Fire|Fountain|Smoke)
+				  | XorBase64Strings(?:Correct)?
+				  | Sound(?:Preload)?
+				  | RemoteDataSetRegion
+				))\b
+			</string>
+			<key>name</key>
+			<string>invalid.deprecated.support.function.lsl</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?x)
+				\b(ll(?:
+					C(?:l(?:earExperiencePermissions|oud)|ollisionSprite)
+				  | Re(?:freshPrimURL|leaseCamera|moteLoadScript)
+				  | S(?:etPrimURL|topPointAt)
+				  | GetExperienceList
+				  | TakeCamera
+				  | PointAt
+				))\b
+			</string>
+			<key>name</key>
+			<string>invalid.illegal.reserved-function.lsl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>LSL Function Constants</string>
 			<key>match</key>
 			<string>(?x)
