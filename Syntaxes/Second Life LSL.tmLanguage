@@ -5,6 +5,9 @@
 	<key>fileTypes</key>
 	<array>
 		<string>lsl</string>
+		<string>lslp</string>
+		<string>lslm</string>
+		<string>lslo</string>
 		<string>esl</string>
 	</array>
 	<key>keyEquivalent</key>
