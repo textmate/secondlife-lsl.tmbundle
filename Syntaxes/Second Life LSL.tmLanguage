@@ -6,6 +6,9 @@
 	<array>
 		<string>lsl</string>
 		<string>esl</string>
+		<string>lslp</string>
+		<string>lslm</string>
+		<string>lslo</string>
 	</array>
 	<key>keyEquivalent</key>
 	<string>^~L</string>
