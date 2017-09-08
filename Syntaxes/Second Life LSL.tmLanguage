@@ -197,6 +197,22 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>(?x)
+				\b(
+					PERMISSION_(?:CHANGE_(?:JOINT|PERMISSION)S|RE(?:MAP_CONTROLS|LEASE_OWNERSHIP))
+					|LAND_(?:SMALL|MEDIUM|LARGE)_BRUSH
+					|PRIM_(?:CAST_SHADOWS|MATERIAL_LIGHT)
+					|PSYS_SRC_(?:(?:INN|OUT)ERANGLE|OBJ_REL_MASK)
+					|ATTACH_[LR]PEC
+					|VEHICLE_FLAG_NO_FLY_UP
+					|DATA_RATING
+				)\b
+			</string>
+			<key>name</key>
+			<string>invalid.deprecated.constant.lsl</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>\b\w+\s*(?=\()</string>
 			<key>name</key>
 			<string>entity.name.function.lsl</string>
