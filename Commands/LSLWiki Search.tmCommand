@@ -5,21 +5,31 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>. "$TM_SUPPORT_PATH/lib/html.sh"
-# redirect "http://www.lslwiki.com/lslwiki/wakka.php?wakka=${TM_SELECTED_TEXT:-$TM_CURRENT_WORD}"
-redirect "http://rpgstats.com/wiki/index.php?title=${TM_SELECTED_TEXT:-$TM_CURRENT_WORD}"
+	<string>#!/bin/bash
+[[ -f "${TM_SUPPORT_PATH}/lib/bash_init.sh" ]] &amp;&amp; . "${TM_SUPPORT_PATH}/lib/bash_init.sh"
+
+. "$TM_SUPPORT_PATH/lib/html.sh"
+redirect "http://wiki.secondlife.com/w/index.php?title=Special%3ASearch&amp;search=${TM_SELECTED_TEXT:-$TM_CURRENT_WORD}&amp;go=1"
 </string>
 	<key>input</key>
 	<string>none</string>
+	<key>inputFormat</key>
+	<string>text</string>
 	<key>keyEquivalent</key>
 	<string>^h</string>
 	<key>name</key>
 	<string>LSLWiki Search</string>
-	<key>output</key>
-	<string>showAsHTML</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>html</string>
+	<key>outputLocation</key>
+	<string>newWindow</string>
 	<key>scope</key>
 	<string>source.lsl</string>
 	<key>uuid</key>
 	<string>93FED4D7-C2C2-4C9F-872A-342A6FBC2EF2</string>
+	<key>version</key>
+	<integer>2</integer>
 </dict>
 </plist>
