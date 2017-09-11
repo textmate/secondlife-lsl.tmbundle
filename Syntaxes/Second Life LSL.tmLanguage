@@ -442,18 +442,26 @@
 				<dict>
 					<key>begin</key>
 					<string>\[</string>
-					<key>captures</key>
+					<key>beginCaptures</key>
 					<dict>
-						<key>1</key>
+						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>meta.brace.square</string>
+							<string>punctuation.section.array.begin.lsl</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>\]</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.section.array.end.lsl</string>
+						</dict>
+					</dict>
 					<key>name</key>
-					<string>meta.group.braces.square</string>
+					<string>meta.array.lsl</string>
 					<key>patterns</key>
 					<array>
 						<dict>
