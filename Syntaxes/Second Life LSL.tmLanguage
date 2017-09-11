@@ -25,10 +25,6 @@
 			<string>#comments</string>
 		</dict>
 		<dict>
-			<key>include</key>
-			<string>#numeric</string>
-		</dict>
-		<dict>
 			<key>match</key>
 			<string>==|!=</string>
 			<key>name</key>
@@ -51,6 +47,10 @@
 			<string>\+\+?|\-\-?|&lt;&lt;|&gt;&gt;|&lt;=|&gt;=|&lt;|&gt;|\*|/|%</string>
 			<key>name</key>
 			<string>keyword.operator.arithmetic.lsl</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#numeric</string>
 		</dict>
 		<dict>
 			<key>comment</key>
