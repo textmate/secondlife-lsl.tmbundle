@@ -388,26 +388,18 @@
 							<string>punctuation.section.scope.begin.lsl</string>
 						</dict>
 					</dict>
-					<key>captures</key>
-					<dict>
-						<key>1</key>
-						<dict>
-							<key>name</key>
-							<string>meta.brace.curly</string>
-						</dict>
-					</dict>
 					<key>end</key>
-					<string>(\})\n?</string>
+					<string>\}</string>
 					<key>endCaptures</key>
 					<dict>
-						<key>1</key>
+						<key>0</key>
 						<dict>
 							<key>name</key>
 							<string>punctuation.section.scope.end.lsl</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>meta.group.braces.curly</string>
+					<string>meta.block.lsl</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -419,18 +411,26 @@
 				<dict>
 					<key>begin</key>
 					<string>\(</string>
-					<key>captures</key>
+					<key>beginCaptures</key>
 					<dict>
-						<key>1</key>
+						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>meta.brace.round</string>
+							<string>punctuation.section.group.begin.lsl</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>\)</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.section.group.end.lsl</string>
+						</dict>
+					</dict>
 					<key>name</key>
-					<string>meta.group.braces.round</string>
+					<string>meta.group.parenthesis.lsl</string>
 					<key>patterns</key>
 					<array>
 						<dict>
